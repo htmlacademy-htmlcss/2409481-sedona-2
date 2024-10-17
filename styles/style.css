@@ -1,0 +1,194 @@
+.header {
+    margin: 0;
+}
+
+.logo-link {
+    margin: 0;
+}
+
+.logo-pic {
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.nav {
+    margin: 0;
+}
+
+.nav-list {
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+.nav-link {
+    margin: 0;
+}
+
+.menu-list {
+    margin: 0;
+}
+
+.menu-item {
+    margin: 0;
+}
+
+.menu-link {
+    margin: 0;
+}
+
+.main-index {
+    margin: 0;
+}
+
+.hero {
+    margin: 0;
+}
+
+.hero-pic {
+    margin: 0;
+}
+
+.advantages {
+    margin: 0;
+}
+
+.advantages-head {
+    margin: 0;
+}
+
+.advantages-text {
+    margin: 0;
+}
+
+.advantages-list {
+    margin: 0;
+}
+
+.advantages-item {
+    margin: 0;
+}
+
+.advantages-item-head {
+    margin: 0;
+}
+
+.advantages-pic {
+    margin: 0;
+}
+
+.description {
+    margin: 0;
+}
+
+.description-head {
+    margin: 0;
+}
+
+.description-text {
+    margin: 0;
+}
+
+.description-list {
+    margin: 0;
+}
+
+.description-item {
+    margin: 0;
+}
+
+.description-item-head {
+    margin: 0;
+}
+
+.description-item-text {
+    margin: 0;
+}
+
+.booking {
+    margin: 0;
+}
+
+.booking-head {
+    margin: 0;
+}
+
+.booking-text {
+    margin: 0;
+}
+
+.search-link {
+    margin: 0;
+}
+
+.footer {
+    margin: 0;
+}
+
+.subscription {
+    margin: 0;
+}
+
+.subscription-head {
+    margin: 0;
+}
+
+.subscription-text {
+    margin: 0;
+}
+
+.subscription-form {
+    margin: 0;
+}
+
+.society {
+    margin: 0;
+}
+
+.society-list {
+    margin: 0;
+}
+
+.society-item {
+    margin: 0;
+}
+
+.society-link {
+
+    margin: 0;
+}
+
+.contacts {
+    margin: 0;
+}
+
+.phone-link {
+    margin: 0;
+}
+
+.partners {
+    margin: 0;
+}
+
+.partners-logo-link {
+    margin: 0;
+}
+
+.partners-logo-pic {
+    margin: 0;
+}
