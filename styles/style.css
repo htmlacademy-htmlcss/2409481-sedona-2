@@ -1,194 +1,310 @@
-.header {
-    margin: 0;
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
 }
 
-.logo-link {
-    margin: 0;
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
 }
 
-.logo-pic {
-    margin: 0;
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background: #f2f2f2;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    -webkit-clip-path: inset(100%);
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Шапка */
+
+.head-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-grow: 1;
+  background-color: #ffffff;
+  height: 64px;
+  flex-wrap: nowrap;
+  width: 1060px;
+  justify-content: flex-start;
+}
+
+.logo-link {}
+
+.logo-pic {
+  display: flex;
+  width: 140px;
+  height: 70px;
+  margin: 0;
+  margin-left: 70px;
+  z-index: 1;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .nav {
-    margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .nav-list {
-    margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
-    margin: 0;
+  display: flex;
 }
 
 .nav-link {
-    margin: 0;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .menu-list {
-    margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 60px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .menu-item {
-    margin: 0;
+  display: flex;
 }
+
+.favorit {}
+
+.search {}
 
 .menu-link {
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 160px;
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  background-color: #756157;
+  padding: 8px;
+  margin: 0;
+  margin-right: 70px;
 }
 
+/* Основной раздел */
+
 .main-index {
-    margin: 0;
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .hero {
-    margin: 0;
+  display: flex;
+  width: 1200px;
+  background-image: url(../images/index-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  padding: 50px 0 107px 0;
+  margin: 0 auto;
+  background-color: #b3b3b3;
+  flex-wrap: wrap;
+}
+
+.hero-container {
+  margin: 0 auto;
+  background-color: #b3b3b3;
+}
+
+.hero-container::after {
+  display: block;
+  content: "";
+  background-image: url(../images/divider.png);
+  width: 1200px;
+  height: 57px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: -57px;
 }
 
 .hero-pic {
-    margin: 0;
+  display: block;
+  width: 458px;
+  margin: 0 auto;
 }
 
 .advantages {
-    margin: 0;
+  background-color: #ffffff;
 }
 
 .advantages-head {
-    margin: 0;
+  display: flex;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 69px 290px 25px 290px;
+
 }
 
-.advantages-text {
-    margin: 0;
+.advantages-head-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  margin-bottom: 50px;
 }
+
+.advantages-text {}
 
 .advantages-list {
-    margin: 0;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .advantages-item {
-    margin: 0;
+  min-height: 385px;
+  justify-content: center;
+  align-content: center;
+}
+
+.advantages-item:nth-child(odd) {
+  background-color: rgba(131, 179, 211, 0.20);
+}
+
+.advantages-item:first-child {
+  grid-column: 1 / 4;
+  background-color: #82B3D3;
+  color: #ffffff;
+
+}
+
+.advantages-item:last-child {
+  grid-column: 1 / 4;
+  background-color: #82B3D3;
+  color: #ffffff;
 }
 
 .advantages-item-head {
-    margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
 }
 
-.advantages-pic {
-    margin: 0;
-}
+.advantages-pic {}
 
-.description {
-    margin: 0;
-}
+.description {}
 
-.description-head {
-    margin: 0;
-}
+.description-head {}
 
-.description-text {
-    margin: 0;
-}
+.description-text {}
 
-.description-list {
-    margin: 0;
-}
+.description-list {}
 
-.description-item {
-    margin: 0;
-}
+.description-item {}
 
-.description-item-head {
-    margin: 0;
-}
+.description-item-head {}
 
-.description-item-text {
-    margin: 0;
-}
+.description-item-text {}
 
-.booking {
-    margin: 0;
-}
+.booking {}
 
-.booking-head {
-    margin: 0;
-}
+.booking-head {}
 
-.booking-text {
-    margin: 0;
-}
+.booking-text {}
 
-.search-link {
-    margin: 0;
-}
+.search-link {}
 
-.footer {
-    margin: 0;
-}
+/* Подвал */
 
-.subscription {
-    margin: 0;
-}
+.footer {}
 
-.subscription-head {
-    margin: 0;
-}
+.subscription {}
 
-.subscription-text {
-    margin: 0;
-}
+.subscription-head {}
 
-.subscription-form {
-    margin: 0;
-}
+.subscription-text {}
 
-.society {
-    margin: 0;
-}
+.subscription-form {}
 
-.society-list {
-    margin: 0;
-}
+.society {}
 
-.society-item {
-    margin: 0;
-}
+.society-list {}
 
-.society-link {
+.society-item {}
 
-    margin: 0;
-}
+.society-link {}
 
-.contacts {
-    margin: 0;
-}
+.contacts {}
 
-.phone-link {
-    margin: 0;
-}
+.phone-link {}
 
-.partners {
-    margin: 0;
-}
+.partners {}
 
-.partners-logo-link {
-    margin: 0;
-}
+.partners-logo-link {}
 
-.partners-logo-pic {
-    margin: 0;
-}
+.partners-logo-pic {}
