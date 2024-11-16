@@ -43,7 +43,9 @@ body {
 }
 
 .wrapper {
-  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   width: 1200px;
   margin: 0 auto;
   box-shadow: 5px 0 5px rgba(0, 0, 0, 0.2),
@@ -226,18 +228,17 @@ body {
 }
 
 .menu-link:active {
-  background-color: #e5e5e5;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 /* Основной раздел */
 
 .main {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
-  flex: 1 0 auto;
+  flex-grow: 1;
+  box-sizing: border-box;
 }
 
 .hero-container {
@@ -407,7 +408,6 @@ body {
 
 .description {
   width: 100%;
-  margin: 0 auto;
 }
 
 .description-head {
@@ -426,11 +426,11 @@ body {
 
 .description-list {
   display: flex;
-  margin: 0 auto;
+  margin: 0;
   justify-content: center;
   background-color: #ffffff;
   list-style: none;
-  padding-inline-start: 0;
+  padding: 0;
 }
 
 .description-item {
@@ -526,6 +526,15 @@ body {
   border-radius: 4px;
   background-color: #756157;
   margin: 0 auto;
+}
+
+.booking-link:hover,
+.booking-link:focus {
+  background-color: #615048;
+}
+
+.booking-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .search-link:hover,
