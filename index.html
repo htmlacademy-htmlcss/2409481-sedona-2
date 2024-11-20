@@ -28,7 +28,7 @@
               <a class="nav-link nav-link-active">Главная</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">О Седоне</a>
+              <a href="sedona-description.html" class="nav-link">О Седоне</a>
             </li>
             <li class="nav-item">
               <a href="catalog.html" class="nav-link">Гостиницы</a>
@@ -300,17 +300,22 @@
       <button class="modal-close-button" type="button"><span class="visually-hidden">Закрыть окно</span></button>
       <form class="modal-form" method="post" action="https://echo.htmlacademy.ru/courses">
         <label class="modal-label label-date" for="checkin">Дата заезда:</label>
-        <div class="span-checkin"><input type="text" id="checkin" class="input-date" value="27 апреля 2020"></div>
+        <div class="span-checkin"><input type="text" id="checkin" class="input-date" value="27 апреля 2020"
+            placeholder="Укажите дату" required></div>
         <label class="modal-label label-date" for="checkout">Дата выезда:</label>
-        <div class="span-checkout"><input type="text" id="checkout" class="input-date" value="1 сентября 2023"></div>
+        <div class="span-checkout"><input type="text" id="checkout" class="input-date" value="1 сентября 2023"
+            placeholder="Укажите дату" required></div>
         <label class="modal-label label-adults-number" for="adults">Взрослые:</label>
-        <input type="text" id="adults" class="input-number input-adults-number" value="2">
+        <div class="input-adults-wrapper"><input type="text" id="adults" class="input-number input-adults-number"
+            value="2" required></div>
         <div class="label-overlay-wrapper"><label class="modal-label label-children-number" for="children">Дети:</label>
           <div class="info-button">
-            <div class="info-button-overlay">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</div>
+            <div class="info-button-overlay">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18
+              лет. Дети до 6 лет размещаются бесплатно.</div>
           </div>
         </div>
-        <input type="text" id="children" class="input-number input-children-number" value="2">
+        <div class="input-children-wrapper"><input type="text" id="children" class="input-number input-children-number"
+            value="2" required></div>
         <button type="submit" class="modal-form-button">Найти</button>
       </form>
     </section>
