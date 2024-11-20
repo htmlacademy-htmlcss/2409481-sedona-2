@@ -1204,6 +1204,11 @@ button-submit:disabled {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.breadcrumbs-link:focus {
+  outline: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .breadcrumbs-link:active {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -1443,6 +1448,10 @@ button-submit:disabled {
   box-shadow: 0 0 3px #83b3d3;
 }
 
+.scale-button:focus {
+  outline: 3px solid #83b3d3;
+}
+
 .scale-button-left {
   position: absolute;
   top: -8px;
@@ -1486,6 +1495,7 @@ button-submit:disabled {
 
 .form-button-submit:hover,
 .form-button-submit:focus {
+  outline: none;
   background-color: #68a2ca;
 }
 
@@ -1606,7 +1616,7 @@ button-submit:disabled {
 
 .view-link:hover,
 .view-link:focus {
-  border: 2px solid #000000;
+  outline: 2px solid #000000;
 }
 
 .cards-list {
@@ -1639,6 +1649,7 @@ button-submit:disabled {
 
 .cards-link:hover,
 .cards-link:focus {
+  outline: none;
   opacity: 0.6;
 }
 
@@ -1702,11 +1713,13 @@ button-submit:disabled {
 
 .link-details:hover,
 .link-details:focus {
+  outline: none;
   background-color: #615048;
 }
 
 .to-fav:hover,
 .to-fav:focus {
+  outline: none;
   background-color: #68a2ca;
 }
 
@@ -1727,6 +1740,7 @@ button-submit:disabled {
 
 .in-fav:hover,
 .in-fav:focus {
+  outline: none;
   background-color: #6c9e42;
 }
 
@@ -1822,6 +1836,7 @@ button-submit:disabled {
 
 .pagination-link:hover,
 .pagination-link:focus {
+  outline: none;
   background-color: #68a2ca;
 }
 
@@ -1831,6 +1846,7 @@ button-submit:disabled {
 
 .pagination-link-active:hover,
 .pagination-link-active:focus {
+  outline: none;
   background-color: #f2f2f2;
   cursor: default;
 }
@@ -1838,6 +1854,7 @@ button-submit:disabled {
 .pagination-link-break:hover,
 .pagination-link-break:focus,
 .pagination-link-break:active {
+  outline: none;
   background-color: transparent;
   color: #000000;
   cursor: default;
