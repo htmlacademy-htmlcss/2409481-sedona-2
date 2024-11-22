@@ -182,7 +182,9 @@ body {
 }
 
 .favorit-meter {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ffffff;
   font-weight: 400;
   font-size: 10px;
@@ -191,8 +193,7 @@ body {
   border-radius: 10px;
   min-width: 20px;
   height: 20px;
-  text-align: center;
-  padding: 5px 2px 0 2px;
+  padding: 2px;
   box-sizing: border-box;
   position: absolute;
   top: -3px;
@@ -1034,6 +1035,7 @@ body {
 }
 
 .filter {
+  background-color: #756157;
   background-image: url("../images/filter-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1156,7 +1158,7 @@ body {
 .infrastructure-input,
 .housing-input {
   appearance: none;
-  width: 20px;
+  min-width: 20px;
   height: 20px;
   border-radius: 4px;
   background-color: #ffffff;
@@ -1511,6 +1513,10 @@ body {
 .cards-link:focus {
   outline: none;
   opacity: 0.6;
+}
+
+.cards-link:active {
+  opacity: 0.3;
 }
 
 .cards-pic {
