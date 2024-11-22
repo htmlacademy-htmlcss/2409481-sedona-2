@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дейдара Роджерс](https://up.htmlacademy.ru/htmlcss-individual/2/user/2409481).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктория Никитина](https://htmlacademy.ru/profile/id1217273).
 
 ---
 
