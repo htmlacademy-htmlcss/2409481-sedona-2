@@ -94,9 +94,9 @@ body {
   padding: 0;
   flex-wrap: wrap;
   min-height: 64px;
-  gap: 0 32px;
+  gap: 32px;
   margin: 0;
-  margin-left: 16px;
+  margin-left: 15px;
   list-style: none;
 }
 
@@ -151,7 +151,8 @@ body {
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
-  list-style: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 
 .nav-menu-link {
@@ -160,8 +161,25 @@ body {
   cursor: pointer;
   text-decoration: none;
   position: relative;
-  padding: 15px 16px;
 }
+
+.search {
+  width: 52px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favorite {
+  width: 35px;
+  height: 36px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .menu-link-position {
   margin-right: 18px;
@@ -175,15 +193,6 @@ body {
 
 .nav-menu-link:active {
   color: rgba(117, 97, 87, 0.3)
-}
-
-.search-icon-position {
-  margin-right: -8px;
-  margin-top: 7px;
-}
-
-.menu-link-icon {
-  margin-top: 9px;
 }
 
 .favorit-meter {
@@ -200,11 +209,11 @@ body {
   padding: 5px 2px 0 2px;
   box-sizing: border-box;
   position: absolute;
-  top: 11px;
-  left: 24px;
+  top: -3px;
+  right: -1px;
 }
 
-.menu-link {
+.menu-link-wish {
   display: flex;
   justify-content: center;
   color: #ffffff;
@@ -218,16 +227,16 @@ body {
   border-radius: 4px;
   background-color: #756157;
   padding: 8px;
-  margin-top: 14px;
+  margin-left: 25px;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.menu-link-wish:hover,
+.menu-link-wish:focus {
   outline: none;
   background-color: #615048;
 }
 
-.menu-link:active {
+.menu-link-wish:active {
   color: rgba(255, 255, 255, 0.3);
 }
 
@@ -281,7 +290,7 @@ body {
   text-align: center;
   justify-content: center;
   align-content: center;
-  padding: 70px 290px 25px 290px;
+  padding: 70px 290px 26px;
   box-sizing: border-box;
 }
 
@@ -293,7 +302,7 @@ body {
   align-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  margin-bottom: 90px;
+  margin-bottom: 89px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
