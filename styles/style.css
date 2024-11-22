@@ -411,6 +411,8 @@ body {
   background-color: #ffffff;
   list-style: none;
   padding: 0;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .description-item {
@@ -1036,7 +1038,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 20px 70px 59px 70px;
+  padding: 20px 70px 58px 70px;
 }
 
 .catalog-h1 {
@@ -1139,16 +1141,16 @@ body {
 .housing-item {
   display: flex;
   flex-wrap: nowrap;
-  gap: 16px;
   align-items: flex-start;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .wrapper-label {
-  display: block;
+  display: flex;
   padding: 0;
   margin: 0;
   margin-top: 1px;
+  gap: 15px;
 }
 
 .infrastructure-input,
@@ -1448,24 +1450,24 @@ body {
   border: 2px solid #e5e5e5;
   border-radius: 4px;
   box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.view-link-active {
+  border-color: #000000;
 }
 
 .view-link-list {
-  background: url("../images/icons/view-list.svg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/icons/view-list.svg");
 }
 
 .view-link-slideshow {
-  background: url("../images/icons/view-slideshow.svg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/icons/view-slideshow.svg");
 }
 
 .view-link-tile {
-  background: url("../images/icons/view-tile.svg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("../images/icons/view-tile.svg");
 }
 
 .view-link:hover {
